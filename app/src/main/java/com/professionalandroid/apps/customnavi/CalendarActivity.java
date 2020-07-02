@@ -18,7 +18,7 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
 
-public class CalendarActivity extends Activity {
+public class CalendarActivity extends Activity { //현재 날짜를 보라색으로 표시합니다.
 
 
     private TextView YearMonth;

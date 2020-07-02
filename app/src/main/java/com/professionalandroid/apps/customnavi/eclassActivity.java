@@ -8,7 +8,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class eclassActivity extends AppCompatActivity {
+public class eclassActivity extends AppCompatActivity { // 인터넷에 연결이 되어 있어야 합니다.
 
     private WebView web_view;
     private String url = "http://eclass2.hufs.ac.kr:8181/ilos/m/main/login_form.acl";
