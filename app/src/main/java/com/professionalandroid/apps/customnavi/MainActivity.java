@@ -19,7 +19,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @RequiresApi(api = Build.VERSION_CODES.N)
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity { // 메뉴는 스와이프로도 열 수 있습니다.
 
     private DrawerLayout drawerLayout;
     private View drawerView;
